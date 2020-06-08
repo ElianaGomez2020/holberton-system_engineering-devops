@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -printf '%f\n' | rev | cut -c 5- | rev | sort -f
+Executable File | 0 Lines ( 0 sloc) | 0 Bytes
