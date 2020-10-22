@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+hour=1
+min=1
+while [ $min -le 59 ]
+do
+	if [ $min -eq 9 ]
+	then
+	
+		echo $min
+	fi
+	echo $hour
+	((min++))
+	((hour++))
+	echo "Hour: 1"
+done
