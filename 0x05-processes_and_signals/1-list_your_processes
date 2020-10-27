@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-ps -faux
+#displays a list of currently running processes
+#pid pid 
+ps aux -f
