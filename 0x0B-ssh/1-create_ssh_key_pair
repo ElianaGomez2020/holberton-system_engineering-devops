@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# connect to your server using the private
+ssh-keygen -b 4096 -t rsa -f holberton -N betty
+ 
