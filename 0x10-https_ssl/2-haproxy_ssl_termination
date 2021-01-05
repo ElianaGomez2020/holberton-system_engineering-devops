@@ -56,7 +56,7 @@ frontend www-https
          default_backend www-backend
 
 frontend www-https
-   bind *:443 ssl crt /etc/haproxy/certs/elianagomez2020.tech.pem
+   bind *:443 ssl crt /etc/haproxy/certs/www.elianagomez2020.tech.pem
    reqadd X-Forwarded-Proto:\ https
    acl letsencrypt-acl path_beg /.well-known/acme-challenge/
    use_backend letsencrypt-backend if letsencrypt-acl
