@@ -8,7 +8,7 @@ def top_ten(subreddit):
     """queries the Reddit API and prints the titles"""
     i = 0
     respons = requests.get("https://www.reddit.com/r/{}/hot.json"
-                            .format(subreddit), headers={'User-agent': 'hola'})
+                           .format(subreddit), headers={'User-agent': 'hola'})
     if not respons:
         print("None")
     else:
