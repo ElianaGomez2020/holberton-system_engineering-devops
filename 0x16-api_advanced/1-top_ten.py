@@ -1,20 +1,18 @@
 #!/usr/bin/python3
-"""queries the Reddit API and prints the titles 
-of the first 10 hot posts"""
+"""queries the Reddit API and prints the titles of the first 10 hot posts"""
 
 import requests
 
 
 def top_ten(subreddit):
-    """ Reddit API"""
-    x = 0
+    """queries the Reddit API and prints the titles"""
+    i = 0
     respons = requests.get("https://www.reddit.com/r/{}/hot.json"
-                           .format(subreddit), headers={'User-agent': 'hello'})
-
+                            .format(subreddit), headers={'User-agent': 'hola'})
     if not respons:
         print("None")
     else:
-        while x < 10:
-            print(respons.json().get('data').get('children')[x].get('data')
+        while i < 10:
+            print(respons.json().get('data').get('children')[i].get('data')
                   .get('title'))
-        x += 1
+            i += 1
