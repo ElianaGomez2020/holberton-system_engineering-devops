@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.holbertonschool.com/holberton-logo.png" width="200"/>
+  <img src="https://www.holbertonschool.com/holberton-logo.png" width="300"/>
  <p align="center">
     <a href="https://github.com/ellerbrock/open-source-badges/">
         <img alt="bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103" target="_blank" />
@@ -35,7 +35,7 @@ In this project, I reviewed the basic concepts about [BASH](https://www.gnu.org/
     <h2 align="center">By, Eliana Gómez S</h2>
 </p>
 
-## Made with :🖤: in
+## Made with 🖤 in
 <img src="https://www.holbertonschool.com/holberton-logo.png"
      alt="Flow chart"
      style="float: left; margin-right: 10px;">
